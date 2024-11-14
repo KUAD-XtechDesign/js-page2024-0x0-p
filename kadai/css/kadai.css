@@ -1,13 +1,8 @@
-<!DOCTYPE html>
-<html lang="ja">
-<head>
-	<meta charset="utf-8">
-	<meta ="X-UA-Compatible" content="IE=edge">
-  <title>12327010 SITE</title>
+css
+.header {
+    background-color: pink; /* ヘッダーの背景色をピンクに設定 */
+}
 
-
-	<meta property="og:type" content="website">
-	<meta property="og:site_name" content="さいと">
-	<meta property="og:title" content="さいと">
-  
-</head>
+#main-content {
+    background-color: lightgreen; /* メインコンテンツの背景色をライトグリーンに設定 */
+}
