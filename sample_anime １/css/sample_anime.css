@@ -11,7 +11,7 @@
 
 .pic.show{
   display: block;
-  opacity: 3;
+  opacity: 1;
 }
 
 #pics01{
@@ -33,14 +33,4 @@
   width: 200px;
   height: 200px;
   position: absolute;
-}
-
-
-css
-.header {
-  background-color: rgb(145, 242, 255); /* ヘッダーの背景色をピンクに設定 */
-}
-
-#main-content {
-  background-color: rgb(249, 165, 255); /* メインコンテンツの背景色をライトグリーンに設定 */
 }
