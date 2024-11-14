@@ -1,33 +1,7 @@
 body{
   background-color: #f886dd;
-  color: #ccc;
 }
 
 header{
   background-color: #97f7fa;
-  padding: 10px;
-  color: #333;
-}
-
-img{
-  max-width: 100%;
-  display: block;
-}
-
-#contents{
-  max-width: 1000px;
-  margin: 0 auto;
-}
-
-.grid-item {
-  max-width: 100%;
-  width: 200px;
-  padding: 2px;
-}
-.grid-item--width2 {
-  width: 400px;
-}
-
-.grid-item--width3 {
-  width: 600px;
 }
