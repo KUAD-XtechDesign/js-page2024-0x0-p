@@ -2,19 +2,16 @@
 
 
 body {
-  background-color: lightblue; /* 背景色をライトブルーに設定 */
+  background-color: rgb(251, 109, 246); /* 背景色をライトブルーに設定 */
 }
 
 
 がぞう
-img {
-  width: 200px; /* 幅を300ピクセルに設定 */
-  height: auto; /* 高さを自動調整 */
-}
-
-img {
-  display: block;
-  margin: 6 auto; /* 上下の余白を0、左右を自動で調整 */
+.container {
+  display: flex;
+  justify-content: center; /* 水平方向に中央寄せ */
+  align-items: center; /* 垂直方向に中央寄せ */
+  height: 100vh; /* ビューポートの高さを100%に設定 */
 }
 
 
