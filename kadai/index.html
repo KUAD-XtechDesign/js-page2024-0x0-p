@@ -22,11 +22,12 @@
 <meta name="viewport"
 content="width=device-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=yes">
 <style>
-/image/IMG_6515 (1).gif{
+{
+(image)/IMG_6515 { (1).gif{
 margin: 0 auto;
 left: 0;
-right: 0;
-display: none; /* ロードまで非表示 flex を変更 */
+right 0;
+display: none; 
 width: 414px;
 overflow: hidden;
 position: absolute;
@@ -55,11 +56,17 @@ transform: translateX(-200%);
 .animation_gif img:last-child {
 animation: loop2 40s linear infinite;
 }
+</style>
+</head>
 
+<body>
+<div class="animation_gif">
+<img src="image/IMG_6515 (1).gif"><img src="image/IMG_6515 (1).gif">
+</div>
 
 }
 
-.animation_gif img:first-child {
+<image> img:first-child {
 animation: loop 40s -20s linear infinite;
 }
 
@@ -90,6 +97,6 @@ animation: loop 40s -20s linear infinite;
 
 
   <!-- 自分のjs -->
-  <script src="./js/kadai.js"></script>
+  <script src="/kadai.js"></script>
 </body>
 </html>
