@@ -1,17 +1,24 @@
 
 
-
-body {
-  background-color: rgb(251, 109, 246); /* 背景色をライトブルーに設定 */
-}
-
-
 がぞう
-.container {
+body {
+  margin: 0; /* ページの余白をなくす */
+  height: 100vh; /* ビューポートの高さを100%に設定 */
   display: flex;
   justify-content: center; /* 水平方向に中央寄せ */
   align-items: center; /* 垂直方向に中央寄せ */
-  height: 100vh; /* ビューポートの高さを100%に設定 */
+  background-color: rgb(251, 109, 246); /* 背景色を設定 */
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  max-width: 100%; /* 画像の最大幅を100%に設定 */
+  height: auto; /* 高さを自動調整 */
 }
 
 
