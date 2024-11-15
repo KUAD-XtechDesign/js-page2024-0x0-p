@@ -1,28 +1,25 @@
 
 
 がぞう
-body {
-  margin: 0; /* ページの余白をなくす */
-  height: 100vh; /* ビューポートの高さを100%に設定 */
-  display: flex;
-  justify-content: center; /* 水平方向に中央寄せ */
-  align-items: center; /* 垂直方向に中央寄せ */
-  background-color: rgb(251, 109, 246); /* 背景色を設定 */
+
+
+.bg_test {
+  height: 250px;                              /* 高さ指定 */
+  padding:  20px;                             /* 余白指定 */
+  font-size: 20px;                            /* 文字サイズ指定 */
+  background-color: rgba(63, 81, 181, 0.7);   /* 背景色指定 */
 }
 
-.container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.bg_test2 {
+  color:  #fff;                               /* 文字色指定 */
+  height: 200px;                              /* 高さ指定 */
+  width:  200px;                              /* 幅指定 */
+  font-size:  14px;                           /* 文字サイズ指定 */
+  background-color: rgba(86, 86, 86, 0.6);    /* 背景色指定 */
+  padding:  20px;                             /* 余白指定 */
+  float:  right;                              /* 位置指定 */
+  position:  relative;                        /* 位置指定 */
+  top: 110px;                                 /* 位置指定 */
 }
-
-img {
-  max-width: 100%; /* 画像の最大幅を100%に設定 */
-  height: auto; /* 高さを自動調整 */
-}
-
-
-
-
 
 
